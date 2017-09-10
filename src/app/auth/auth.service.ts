@@ -11,7 +11,7 @@ export class AuthService {
     domain: AUTH_CONFIG.domain,
     responseType: 'token id_token',
     audience: `https://${AUTH_CONFIG.domain}/userinfo`,
-    redirectUri: 'https://testingauth0.herokuapp.com/callback',
+    redirectUri: 'https://testingauth0.herokuapp.com/',
     scope: 'openid'
   });
 
